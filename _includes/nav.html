@@ -1,0 +1,9 @@
+<nav >
+	<ul>
+		<li><a href="index.html" class="{% if page.url == '/'%}current {% endif %}"> Home </a></li>
+		<li><a href="portfolio.html" class="{% if page.url contains 'portfolio' %}current{% endif %}"> Portfolio </a></li>
+		<li><a href="instagram.html" class="{% if page.url contains 'instagram' %}current{% endif %}"> Instagram </a></li>
+		<li><a href="about.html" class="{% if page.url contains 'about' %}current{% endif %}"> About </a></li>
+		<li><a href="contact.html" class="{% if page.url contains 'contact' %}current{% endif %}"> Contact </a></li>
+	</ul>
+</nav>
