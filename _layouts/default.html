@@ -3,12 +3,26 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Gauri Prajapat</title>
-	<link rel="stylesheet" href="">
+	<title>{% if page.title %} • {{page.title}} • {% endif %}</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+
 </head>
 <body>
+<div id="wrapper">
+
+<!--HEADER INCLUDE-->
+{% include header.html %}
+
+<!--NAVIGATION INCLUDE-->
+{% include nav.html %}
+
 
 {{content}}<!-- This is a placeholder to tell jekyll where it should place contents from the index.html file -->
 
+<!--FOOTER INCLUDE-->
+{% include footer.html %}
+
+</div>
 </body>
 </html>
