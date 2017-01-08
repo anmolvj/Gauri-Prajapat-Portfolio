@@ -2,4 +2,6 @@
 ---
 
 {% include css/common.css %}
+{% include css/header.css %}
 {% include css/nav.css %}
+{% include css/animate.css %}
