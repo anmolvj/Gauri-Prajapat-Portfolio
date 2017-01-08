@@ -1,9 +1,13 @@
-<nav >
+<nav class="">
 	<ul>
-		<li><a href="index.html" class="{% if page.url == '/'%}current {% endif %}"> Home </a></li>
-		<li><a href="portfolio.html" class="{% if page.url contains 'portfolio' %}current{% endif %}"> Portfolio </a></li>
-		<li><a href="instagram.html" class="{% if page.url contains 'instagram' %}current{% endif %}"> Instagram </a></li>
-		<li><a href="about.html" class="{% if page.url contains 'about' %}current{% endif %}"> About </a></li>
-		<li><a href="contact.html" class="{% if page.url contains 'contact' %}current{% endif %}"> Contact </a></li>
+		<li class="{% if page.url == '/'%}current {% endif %}"><a href="index.html" > Home </a></li>
+
+		<li class="{% if page.url contains 'portfolio' %}current{% endif %}"><a href="portfolio.html" > Portfolio </a></li>
+
+		<li class="{% if page.url contains 'instagram' %}current{% endif %}"><a href="https://www.instagram.com/gauri_prajapat/" > Instagram </a></li>
+
+		<li class="{% if page.url contains 'about' %}current{% endif %}"><a href="about.html" > About </a></li>
+
+		<li class="{% if page.url contains 'contact' %}current{% endif %}"><a href="contact.html" > Contact </a></li>
 	</ul>
 </nav>
