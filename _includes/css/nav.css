@@ -1,31 +1,55 @@
+
+nav{
+	float: right;
+	margin-right: 50px;
+	margin-top: 80px;
+	min-width: 47.1%;
+}
+
 nav ul{
 	list-style-type: none;
 	overflow: hidden;
 	padding: 0px;
 	margin: 0px;
-	float: right;
 }
 
 nav ul li{
-	display: inline-block;
+	
 	text-decoration: none;
-	padding: 2px;
-}
+	padding: 4px;
+	padding-left: 2px;
+	display: inline-block;
+	text-align: center;
+	border-top: solid #e6e6e6 1px ;
+	border-right: solid white 5px;
+	min-width: 80px;
+	}
 
 nav ul li a{
 	text-decoration: none;
-	font-size: 25px;
-	font-family: 'Arima Madurai', cursive;
-	color: hotpink;
+	font:15px bold ;
+	font-family: 'Raleway', sans-serif;
+	color: #666666;
 	display: block;
+	padding: 25px 2px 50px 2px;
+	
 }
 
-nav ul li a:hover{
-	color: red ;//#ff0066
-
+nav ul li:hover{
+	color: black;
+	border-top: solid #e6e6e6 3px ;
 
 }
 
 .current{
-	color: green;
+	color: black;
+	border-top: solid #330401 3px ;
+	/*max-width: 100px;*/
 }
+
+.current:hover{
+	color: black;
+	border-top: solid #330401 3px ;
+}
+
+
