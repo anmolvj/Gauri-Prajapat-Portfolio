@@ -1,4 +1,4 @@
-header h1{
+header p{
 	
 	font-family: 'Parisienne', cursive;
   	color: black;
@@ -38,7 +38,7 @@ header h1{
     	width: 100%;
 
     }
-    header h1{
+    header p{
     	max-height: none;
     	margin-bottom: 0px;
     	width: 60%;

@@ -7,11 +7,13 @@ body{
 	height: 100vh;
 	margin: 0px;
 	padding: 0px;
+	background-color: #f2f2f2;
 	overflow-y: auto;
 	overflow-x: hidden;
 	-webkit-overflow-scrolling:touch;
 	perspective: 1px;
 	-webkit-perspective:1px;
+
 }
 
 #wrapper{
