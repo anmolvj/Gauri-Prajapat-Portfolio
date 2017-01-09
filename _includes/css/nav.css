@@ -22,8 +22,8 @@ nav ul li{
 	/*padding-left: 2px;*/
 	display: inline-block;
 	text-align: center;
-	border-top: solid #e6e6e6 1px ;
-	border-right: solid white 5px;
+	border-top: solid #d9d9d9 1px ;
+	border-right: solid #f2f2f2 5px;
 	min-width: 80px;
 	}
 

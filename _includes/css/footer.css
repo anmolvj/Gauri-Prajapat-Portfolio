@@ -1,0 +1,28 @@
+footer{
+	margin:30px 0px 20px 0px;
+	padding: 0px;
+	display: block;
+	width: 100%;
+	min-height: 20vh;
+	background-color: #f2f2f2;
+	text-align: center;
+	box-shadow: 1px 1px 20px 1px;
+}
+
+footer p {
+	margin: 0px auto;
+	font-size: 20px;
+	font-family: 'Parisienne', cursive;
+	color: black;
+	
+
+
+}
+
+#click-below{
+	font-size: 15px;
+}
+
+#anmol{
+	font-size: 30px ;
+}
