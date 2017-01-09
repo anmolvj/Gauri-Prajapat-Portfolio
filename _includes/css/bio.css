@@ -1,0 +1,17 @@
+#bio-ul{
+	display: flex;
+}
+
+.bio-ul{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px auto;
+}
+
+.bio-div{
+	display: flex;
+	height: 70px;
+	min-width: 33.33%;
+	background-color: lightgreen;
+	border: 1px solid black;
+}
