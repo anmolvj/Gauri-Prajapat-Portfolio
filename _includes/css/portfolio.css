@@ -1,0 +1,12 @@
+.img{
+	width:288;
+	height: 192;
+	float: left;
+	padding: 5px;
+}
+
+#gallery-entry{
+	display: inline-block;
+	width: 100%;
+}
+
