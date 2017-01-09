@@ -2,13 +2,52 @@ header h1{
 	
 	font-family: 'Parisienne', cursive;
   	color: black;
-  	/*text-shadow: 4px 4px 3px rgba(0,0,0,0.3);*/ 
 	font-size: 55px;
 	font-style: italic;
+	max-height: 130px;
 }
 
 #headerName{
-	margin-left: 100px;
+	margin-left: 10%;
 	float: left;
-	max-width: 31.698%;
+	max-width: 32%;
+}
+
+#header{
+	display: flex;
+  	flex-direction: row;
+  	min-width: 100%;
+
+}
+
+@media only screen and (max-width: 880px) {
+    #header{
+    	
+    	
+    	display:inline-block;
+    }
+
+    #headerName{
+    	float: none;
+    	margin: 40px auto;
+    }
+
+    .nav-bar{
+    	float: none;
+    	margin:auto auto;
+    	width: 100%;
+
+    }
+    header h1{
+    	max-height: none;
+    	margin-bottom: 0px;
+    	width: 60%;
+    
+
+    }
+
+    h
+
+
+    
 }
