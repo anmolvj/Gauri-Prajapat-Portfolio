@@ -2,11 +2,11 @@
 	<ul>
 		<li class="{% if page.url == '/'%}current {% endif %}"><a href="index.html" > Home </a></li>
 
+		<li class="{% if page.url contains 'about' %}current{% endif %}"><a href="about.html" > Bio </a></li>
+
 		<li class="{% if page.url contains 'portfolio' %}current{% endif %}"><a href="portfolio.html" > Portfolio </a></li>
 
 		<li class="{% if page.url contains 'instagram' %}current{% endif %}"><a href="https://www.instagram.com/gauri_prajapat/" > Instagram </a></li>
-
-		<li class="{% if page.url contains 'about' %}current{% endif %}"><a href="about.html" > About </a></li>
 
 		<li class="{% if page.url contains 'contact' %}current{% endif %}"><a href="contact.html" > Contact </a></li>
 	</ul>
