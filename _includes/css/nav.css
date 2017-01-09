@@ -1,23 +1,25 @@
 
 nav{
-	float: right;
-	margin-right: 50px;
-	margin-top: 50px;
-	min-width: 47.1%;
+	float: left;
+	margin-left:130px;
+	margin-top: 130px;
+	max-width: 68%;
 }
+
 
 nav ul{
 	list-style-type: none;
 	overflow: hidden;
 	padding: 0px;
 	margin: 0px;
+	min-width: 47.1%;
 }
 
 nav ul li{
 	
 	text-decoration: none;
 	padding: 4px;
-	padding-left: 2px;
+	/*padding-left: 2px;*/
 	display: inline-block;
 	text-align: center;
 	border-top: solid #e6e6e6 1px ;
