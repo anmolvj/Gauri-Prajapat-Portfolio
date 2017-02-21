@@ -1,47 +1,40 @@
-header p{
-	
-	font-family: 'Parisienne', cursive;
-  	color: black;
-	font-size: 55px;
-	font-style: italic;
-	max-height: 130px;
-}
-
-#headerName{
-	margin-left: 10%;
-	float: left;
-	max-width: 32%;
+p{
+    margin: 0px;
+    padding: 0px;
 }
 
 #header{
-	display: flex;
-  	flex-direction: row;
-  	min-width: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+#headerName{
+    font-family: 'Parisienne', cursive;
+    color: black;
+    font-size: 55px;
+    font-style: italic;
 
 }
+
+
 
 @media only screen and (max-width: 880px) {
     #header{
     	
     	
-    	display:inline-block;
     }
 
     #headerName{
-    	float: none;
-    	margin: 40px auto;
+    	
     }
 
     .nav-bar{
-    	float: none;
-    	margin:auto auto;
-    	width: 100%;
+    	0%;
 
     }
     header p{
-    	max-height: none;
-    	margin-bottom: 0px;
-    	width: 60%;
+    	
     
 
     }

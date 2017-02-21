@@ -1,21 +1,18 @@
 footer{
 	margin:30px 0px 20px 0px;
 	padding: 0px;
-	display: inline-block;
-	width: 100%;
-	min-height: 10vh;
+	clear: both;
+	
 	background-color: #f2f2f2;
 	text-align: center;
 	border-top:1.5px solid lightgrey;
 	
-	/*box-shadow: 1px 1px 20px 1px;
-	-webkit-box-shadow: 1px 1px 20px 1px;
-	-moz-box-shadow: 1px 1px 20px 1px;*/
+	
 }
 
 footer p {
 	margin: 0px auto ;
-	font-size: 25px;
+	font-size: 20px;
 	font-family: 'Parisienne', cursive;
 	color: black;
 	padding: 5px;
@@ -27,7 +24,8 @@ footer p {
 }
 
 #anmol{
-	font-size: 50px ;
+	
+	font-size: 20px;
 }
 
 @media only screen and (max-width: 880px) {

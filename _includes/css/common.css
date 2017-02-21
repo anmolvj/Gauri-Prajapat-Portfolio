@@ -27,27 +27,4 @@ body{
 	clear: both;
 }
 
-/*#parallax-cover{
-	width: 100%;
 
-}
-
-.parallax-group{
-	transform-style: preserve-3d;
-	-webkit-transform-style: preserve-3d;
-}
-
-.back{
-	transform: translateZ(-1px) scale(2);
-	-webkit-transform: translateZ(-1px) scale(2);
-	position: relative;
-	
-}
-
-.front{
-	background-color: #ccc;
-	padding: 14em 1em;
-	position: relative;
-	z-index: 2;
-
-}*/
