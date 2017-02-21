@@ -3,8 +3,9 @@
 	margin: auto;
 	
 	background-color: #e6e6e6;
-	font-family: 'Parisienne', cursive;
-
+	font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+	color: black;
+	font-style: italic;
 	border-radius: 5px;
 	box-shadow: 2px 2px 50px;
 	-webkit-box-shadow: 2px 2px 50px;
